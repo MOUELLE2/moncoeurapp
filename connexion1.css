@@ -1,0 +1,9 @@
+main{background: rgba(255, 255, 255, 0.874); margin: 50px; text-align: center;height:100%;border-radius: 8px;}
+h1{color: rgb(21, 21, 100);}
+body{background: rgba(153, 197, 233, 0.966);}
+a{text-decoration: none;}
+.connexion{color: #051fa1;}
+input{text-align: center;width: 70%;height: 18px;border-radius: 5px;}
+footer{background-color: #173d96;color: white;}
+.souvenir{display: flex;justify-content: space-around;font-size: 10px;}
+.con{border-bottom: 12px;background: rgba(8, 26, 188, 0.824);padding: 3px;width: 150px;border-radius: 5px;color: white;padding-left: 90px;padding-right: 90px;}

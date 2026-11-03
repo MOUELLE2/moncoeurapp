@@ -1,0 +1,15 @@
+body{background: radial-gradient(ellipse 80% 30% at 60% 10%,rgba(255,255,255,0.9)0%,rgba(255,255,255,0)60%),#9ab8d9;;}
+main{background: blue; margin: 80px; text-align: center;height:100%;}
+#page{display: flex;margin-bottom: 72px;}
+main{flex: 1; background-color: rgb(230, 231, 236);padding: 30px;min-width: 0;border-radius: 10px;padding: 50px;width: 30%;}
+nav{position: relative; width: 80px; background:rgb(29, 29, 193);border-right: 5px solid #e09618 ;padding: 12px 10px;border-radius: 9px;}
+nav h1{transform: rotate(-90deg);color: white;white-space:nowrap;padding: 200px 0px;}
+.cmpt{font-size: 40px;color: #061865;}
+a{text-decoration: none;}
+input{border-radius: 8px;height: 40px;width: 100%;text-align: center;border: 1px solid #cbd5e1;border-radius: 8px;box-sizing: border-box;padding: 10px;margin-top: 5px;}
+button{width: 100%;margin-top: 10px;background: #2563eb;color: white;border: none;padding: 12px;border-radius: 8px;font-size: 16px;font-weight: bold;cursor: pointer;}
+button:hover{background: #143eb0;}
+.connecter{color:#db7d09;}
+
+@media(max-width:725px){main{margin: 30px;}}
+@media(max-width:550px){main{margin: 19px;}  input{width: 90%;}}

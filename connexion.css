@@ -1,0 +1,14 @@
+body{font-family:Arial;background: #dbeafe;display: flex;justify-content: center;padding: 30px;}
+.card{background: white;width: 500px;padding: 25px; border-radius: 15px;box-shadow: 0 10px 25px rgba(0,0,0,0.1);}
+h1{text-align: center;color: #1e3a8a;margin-bottom: 5px;}
+.sub{text-align: center;color: #64748b;margin-bottom: 20px;}
+.roles{display: grid;grid-template-columns: 1fr 1fr;gap: 12px;margin-bottom: 20px;}
+.roles a{text-decoration: none;color: #1e3a8a;border: 2px solid #bfdbfe;padding: 12px;border-radius: 10px;text-align: center;font-weight: bold;}
+.roles a.active,.roles a:hover{background: #1e40af;color: white;border-color: #1e40af;}
+label{display: block;margin-top: 10px;font-weight: bold;font-size: 14px;}
+input{width: 100%;padding: 10px;margin-top: 5px;border: 1px solid #cbd5e1;border-radius: 8px;box-sizing: border-box;}
+button{width: 100%;margin-top: 20px;background: #2563eb;color: white;border: none;padding: 12px;border-radius: 8px;font-size: 16px;font-weight: bold;cursor: pointer;}
+button:hover{background: #1d4ed8;}
+.option{display: flex;justify-content: space-between;align-items: center;margin-top: 5px;border: 1px solid #cbd5e1;border-radius: 8px;box-sizing: border-box;}
+.option a{color: #2563eb;text-decoration: none;}
+.option a:hover{text-align: underline;}
